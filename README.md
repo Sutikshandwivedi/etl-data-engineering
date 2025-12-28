@@ -7,3 +7,22 @@ It simulates real-world data engineering workflows including extraction, transfo
 ---
 
 ## Architecture
+
+
+
+
+---
+
+## Features Implemented
+- Modular ETL design (Extract / Transform / Load)
+- SQL-based transformations
+- Dockerized pipeline
+- Version control using Git
+- Scalable & production-ready structure
+
+---
+
+## How to Run (Local / Docker)
+```bash
+docker build -t etl-pipeline .
+docker run etl-pipeline
